@@ -1,0 +1,13 @@
+{% extends 'base.html'%}{% block title %} PSU Online Vaccination {% endblock %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'navbardesign.css')}}">
+<h1>Appointment</h1>
+<a href="/survey1">
+<button class="btn btn-outline-primary" type="submit">Back</button>
+</a>
+
+<a href="/PS1">
+<button class="btn btn-success" type="submit">Register</button>
+</a>
+{% endblock %}
+

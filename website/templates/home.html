@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+{% block title %}
+PSU Online Vaccination
+{% endblock %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'navbardesign.css')}}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'background.css')}}">
+<img class="picture" src="static/psu.png" alt="psu">
+<h1>PSU VAX</h1>
+<a href="/appointment" style="text-decoration: none; ">
+<h5>Appoint Here</h5>
+</a>
+
+{% endblock %}
